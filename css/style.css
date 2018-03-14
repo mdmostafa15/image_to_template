@@ -6,6 +6,7 @@
 body{
     background-image: url(../images/background.jpg);
     background-repeat: repeat-x;
+    font-family: 'Raleway', sans-serif;
 }
 .wraper{
     margin: 10px auto;
@@ -13,7 +14,7 @@ body{
     border: 1px solid #CECECE;
 }
 .header{
-    min-height: 63px;
+    min-height: 65px;
     background-color: white;
 }
 .logo{
@@ -23,11 +24,13 @@ body{
 .menu{
     float: right;
     width: 65%;
+    font-weight: bold;
+    font-size: 13px;
     
 }
 .menu ul{
     list-style: none;
-    padding: 7px 0px;
+    padding: 9px 0px;
 }
 .menu ul li{
     display: inline;
@@ -57,6 +60,7 @@ body{
     position: absolute;
     margin: -235px 0px 0px 25px;
     opacity: 0.1;
+ /* code for IE  */
     filter: 1;
 }
 .contain{
@@ -69,7 +73,7 @@ body{
     padding: 25px;
 }
 .our_service h2{
-   
+   font-weight: 200;
 }
 .our_service img{
     width: 100%;
@@ -77,6 +81,8 @@ body{
 }
 .our_service p{
     padding: 10px 0px;
+    font-weight: 300;
+    font-size: 14px;
 }
 .our_service button{
     background-color: #375476;
@@ -94,7 +100,9 @@ body{
     
 }
 .para{
-    padding: 10px
+    padding: 10px;
+    color: #375476;
+    line-height: 25px;
 }
 .social{
     padding: 10px;
