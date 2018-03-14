@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-x;
+}
+.wraper{
+    margin: 10px auto;
+    width: 980px;
+    border: 1px solid #CECECE;
+}
+.header{
+    min-height: 62px;
+    background-color: white;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.menu{
+    float: right;
+    width: 65%;
+    
+}
+.menu ul{
+    list-style: none;
+    padding: 7px 0px;
+}
+.menu ul li{
+    display: inline;
+    
+}
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    color:#3E5871;
+}
+.menu ul li a:hover{
+   color:white;
+    background-color:#3E5871; 
+}
+.banner{
+   
+}
+.banner img{
+    width: 100%;
+    position: relative;
+}
+#transferent{
+    width: 147px;
+    height: 34px;
+    position: absolute;
+    margin: -235px 0px 0px 25px;
+    opacity: 0.1;
+    filter: 1;
+}
+.contain{
+    padding: 20px;
+}
+.our_service{
+    float: left;
+    width: 28%;
+    text-align: center;
+    padding: 25px;
+}
+.our_service h2{
+   
+}
+.our_service img{
+    width: 100%;
+    padding: 10px 0px;
+}
+.our_service p{
+    padding: 10px 0px;
+}
+.our_service button{
+    background-color: #375476;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 9px;
+    border: none;
+    margin: 30px;
+}
+.footer{
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    
+}
+.para{
+    padding: 10px
+}
+.social{
+    padding: 10px;
+   
+}
+.social img{
+    padding: 2px;
+}
