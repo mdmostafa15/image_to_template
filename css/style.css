@@ -58,10 +58,9 @@ body{
     width: 147px;
     height: 34px;
     position: absolute;
-    margin: -235px 0px 0px 25px;
     opacity: 0.1;
  /* code for IE  */
-    filter: 1px;
+    filter: 1;
     left:39px;
     bottom:65px;
 }
