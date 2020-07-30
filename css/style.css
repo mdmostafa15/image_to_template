@@ -61,7 +61,9 @@ body{
     margin: -235px 0px 0px 25px;
     opacity: 0.1;
  /* code for IE  */
-    filter: 1;
+    filter: 1px;
+    left:39px;
+    bottom:65px;
 }
 .contain{
     padding: 20px;
